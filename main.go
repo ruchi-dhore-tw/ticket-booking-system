@@ -2,8 +2,9 @@ package main
 
 import (
 	"flag"
-	"github.com/sujithps/ticket-booking-system/app"
-	"github.com/sujithps/ticket-booking-system/db"
+
+	"github.com/ruchi-dhore-tw/ticket-booking-system/app"
+	"github.com/ruchi-dhore-tw/ticket-booking-system/db"
 )
 
 func main() {
@@ -17,4 +18,3 @@ func main() {
 
 	app.StartServer()
 }
-
